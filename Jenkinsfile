@@ -17,9 +17,12 @@ pipeline {
         }        
         stage('Test') {            
             steps {                
-                echo 'hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhnnhhhhh'            
-            }        
+                echo '这里是测试阶段'            
+            }
         }  
+        stege(){
+        
+        }
     }
  
   
