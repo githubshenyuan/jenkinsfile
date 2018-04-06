@@ -20,8 +20,10 @@ pipeline {
                 echo '这里是测试阶段'            
             }
         }  
-        stege(){
-        
+        stage('下一步'){
+        	    steps {                
+                echo '这里是下一步'            
+            }
         }
     }
  
